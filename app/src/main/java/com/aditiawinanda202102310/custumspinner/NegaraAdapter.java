@@ -14,9 +14,9 @@ public class NegaraAdapter extends BaseAdapter {
     private Context _context;
     private List<String> _negaraList;
 
-    public NegaraAdapter(Context _context, List<String> _negaraList) {
-        this._context = _context;
-        this._negaraList = _negaraList;
+    public NegaraAdapter(Context context, List<String> negaraList) {
+        this._context = context;
+        this._negaraList = negaraList;
     }
 
     @Override
